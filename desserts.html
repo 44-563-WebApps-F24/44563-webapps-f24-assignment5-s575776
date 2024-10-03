@@ -13,6 +13,25 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="desserts.html">Dessert Options</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="basic.html">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="advanced.html">Advanced</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    
     <h1>After dinner hosted by Bojja</h1>
     <div class="container">
         <div class="row">
@@ -38,8 +57,166 @@
         <p>
             The dessert names row breaks first because it uses the `col-md` class, which is designed for medium-sized screens. As the screen size decreases, the longer text (the dessert names) causes the columns to wrap into multiple rows sooner than the letters, which are shorter.
         </p>
+        
+        <div class="container">
+          <div class="row">
+              <div class="col-sm">
+                  <img src="dessert1.jpg" alt="Dessert 1" class="img-fluid" style = "width: 400px; height: 500px;">
+              </div>
+              <div class="col-sm">
+                  <img src="dessert2.jpg" alt="Dessert 2" class="img-fluid" style = "width: 400px; height: 500px;">
+              </div>
+              <div class="col-sm">
+                  <img src="dessert3.jpg" alt="Dessert 3" class="img-fluid" style = "width: 400px; height: 500px;">
+              </div>
+          </div>
+      </div>
+  
+      
+      <div class="container mt-4">
+          <div class="row">
+              <div class="col-sm">
+                  <img src="dessert1.jpg" alt="Dessert 1 thumbnail" class="img-fluid" style="width: 100px; height:100px;">
+              </div>
+              <div class="col-sm">
+                  <img src="dessert2.jpg" alt="Dessert 2 thumbnail" class="img-fluid" style="width: 100px; height:100px;">
+              </div>
+              <div class="col-sm">
+                  <img src="dessert3.jpg" alt="Dessert 3 thumbnail" class="img-fluid" style="width: 100px; height:100px;">
+              </div>
+          </div>
+        </div>
+        <style>
+          caption {
+            caption-side: top
+          }
+        </style>
+        <div class="container mt-5">
+          
+          <table class="table table-bordered table-striped table-hover table-sm">
+              <caption class="text-center">Alphabetic List of Desserts, Cities, and Insects for BOJJAS</caption>
+              <thead class="table-primary">
+                  <tr>
+                      <th scope="col">Letter</th>
+                      <th scope="col">Dessert</th>
+                      <th scope="col">City</th>
+                      <th scope="col">Insect</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="table-success">
+                      <th scope="row">B</th>
+                      <td>Baklava</td>
+                      <td>Berlin</td>
+                      <td>Beetle</td>
+                  </tr>
+                  <tr class="table-info">
+                      <th scope="row">O</th>
+                      <td>Oreo Cake</td>
+                      <td>Oslo</td>
+                      <td>Odonata (Dragonfly)</td>
+                  </tr>
+                  <tr class="table-warning">
+                      <th scope="row">J</th>
+                      <td>Jalebi</td>
+                      <td>Jakarta</td>
+                      <td>June Bug</td>
+                  </tr>
+                  <tr class="table-danger">
+                      <th scope="row">J</th>
+                      <td>Jam Roll</td>
+                      <td>Johannesburg</td>
+                      <td>Japanese Beetle</td>
+                  </tr>
+                  <tr class="table-success">
+                      <th scope="row">A</th>
+                      <td>Apple Pie</td>
+                      <td>Amsterdam</td>
+                      <td>Ant</td>
+                  </tr>
+                  <tr class="table-info">
+                      <th scope="row">S</th>
+                      <td>Strawberry Shortcake</td>
+                      <td>San Francisco</td>
+                      <td>Stink Bug</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <div class="container"></div>
+        
+        <div class="btn-toolbar mb-3" role="toolbar" aria-label="Button groups for BOJJAS">
+            
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-success">B</button>
+                <button type="button" class="btn btn-success">O</button>
+                </div>
+                 
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-warning">J</button>
+              <button type="button" class="btn btn-warning">J</button>
+          </div>
+
+          
+          <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-danger">A</button>
+              
+        <div class="btn-group" role="group" aria-label="Fourth group">
+          <button type="button" class="btn btn-success">S</button>
+      </div>
+  </div>
+  <title>Desserts Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Desserts Menu</h1>
+       
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose a Page
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="basic.html">Basic Page</a>
+                <a class="dropdown-item" href="advanced.html">Advanced Page</a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <h2>Sign Up for Dessert Updates</h2>
+        <form>
+            <!-- 1st Form Group: Email -->
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+
+            <!-- 2nd Form Group: Dessert Choice -->
+            <div class="form-group">
+                <label for="dessert">Dessert</label>
+                <input type="text" class="form-control" id="dessert" placeholder="Enter your dessert">
+            </div>
+
+            <!-- 3rd Form Check: Newsletter Signup -->
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="newsletter">
+                <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+
+
 </body>
 </html>
-
-
-
